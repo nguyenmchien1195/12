@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Link Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .image-link img {
+            width: 400px;
+            border-radius: 12px;
+            transition: 0.3s;
+            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .image-link img:hover {
+            transform: scale(1.05);
+            opacity: 0.85;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Click vào ảnh để truy cập website</h1>
+
+        <a href="https://your-website.com" target="_blank" class="image-link">
+            <img src="https://via.placeholder.com/400x250" alt="Banner">
+        </a>
+
+    </div>
+
+</body>
+</html>
